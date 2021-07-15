@@ -1,0 +1,39 @@
+h1 {
+    color: rgb(50, 23, 112);
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid rgb(128, 1, 128)
+}
+
+body {
+    color: rgb(139, 79, 0);
+    font-size: 28px;
+    text-align: center;
+    border: 4px;
+    border-style: solid;
+}
+
+div {
+    height: 520px;
+    width: 100%;
+    background-color: rgb(52, 0, 110);
+}
+
+.button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #60a3bc;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    border: 0;
+    transition: all 0.4s ease 0s;
+}
+
+.button:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-orient: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}

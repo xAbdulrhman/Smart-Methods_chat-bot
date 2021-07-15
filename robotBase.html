@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <h1>
+        Robot Control Panel
+    </h1>
+    <div>
+        <br>
+        <input type="button" class="button" title="Move Forward" value="Forward!"> <br> <br>
+        <input type="button" class="button" title="Move Left" value="Left!"> &nbsp &nbsp
+        <input type="button" class="button" title="Stop moving" value="Stop!">&nbsp &nbsp
+        <input type="button" class="button" title="Move Right" value="Right!"> <br><br>
+        <input type="button" class="button" title="Move Backward" value="Backward!">
+    </div>
+
+</body>
+<script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "5ae5378b-1855-4c43-8dcf-57a32a12554f", // The ID of this integration.
+        region: "eu-de", // The region your integration is hosted in.
+        serviceInstanceID: "5be10e18-4b63-48ea-a571-ef4c79cb12c9", // The ID of your service instance.
+        onLoad: function(instance) {
+            instance.render();
+        }
+    };
+    setTimeout(function() {
+        const t = document.createElement('script');
+        t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+        document.head.appendChild(t);
+    });
+</script>
+
+</html>
